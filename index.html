@@ -1304,7 +1304,7 @@ function determineLeadQualification(data) {
     // YELLOW conditions (needs attention)
     const yellowConditions = [];
     
-    if (data.buildingAge === '10–20 years' || data.buildingAge === 'Over 20 years' || data.buildingAge === 'Not sure') {
+    if (data.buildingAge === 'Over 20 years' || data.buildingAge === 'Not sure') {
         yellowConditions.push('Old building');
     }
     
